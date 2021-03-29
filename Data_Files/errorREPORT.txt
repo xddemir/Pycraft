@@ -1,0 +1,2 @@
+name 'hjlafuhlui' is not defined
+<module 'OpenGL.error' from 'C:\\Users\\pamj0\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\OpenGL\\error.py'>
