@@ -30,3 +30,10 @@ Pypi @ https://pypi.org/
 Pillow (PIL) @ https://python-pillow.org/
 Pygame @ https://www.pygame.org
 Windows 10 - Visual Studio Code @ https://code.visualstudio.com/
+
+- changes
+
+Updated the start up module and tweaked a few resources, this is the first minor update, there are likely to be bugs and issues so feedback will be much appreciated.
+this version was released on; 29/03/2021 (UK date) DD/MM/YYYY
+This version is also not in the sub folder "Pycraft" we really recomend you put the files and foldersd in a new folder called that, this was not intentional but we where having issues uploading the project.
+As always we hope you enjoy this new release and feel free to leave feedback. Thank you!
