@@ -1,0 +1,15 @@
+{
+  "created_at": "2021-03-19T17:04:24.716701",
+  "version": "0.1",
+  "mtllibs": [
+    "man v2.mtl"
+  ],
+  "vertex_buffers": [
+    {
+      "material": "50.001",
+      "vertex_format": "N3F_V3F",
+      "byte_offset": 0,
+      "byte_length": 212472
+    }
+  ]
+}
