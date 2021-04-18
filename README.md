@@ -30,3 +30,11 @@ Pypi @ https://pypi.org/
 Pillow (PIL) @ https://python-pillow.org/
 Pygame @ https://www.pygame.org
 Windows 10 - Visual Studio Code @ https://code.visualstudio.com/
+
+ - changes
+
+In this new sub-release we have patched a few bugs, improved performance and done the following:
+(-) added texture rendering to the "map.obj" file in the program
+(-) fixed the skybox to the player
+(-) added some sound effects including a click when pressing buttons, and a general UI soundtrack
+again feedback would be much appreciated, and this version was released on; 18/04/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
