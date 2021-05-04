@@ -1,10 +1,3 @@
-![Icon](https://user-images.githubusercontent.com/81379254/117056278-0df45680-ad14-11eb-814b-588d76cca699.jpg)
-![PauseIMG](https://user-images.githubusercontent.com/81379254/117056279-0e8ced00-ad14-11eb-829a-df33f3f5d54c.jpg)
-![Pycraft_Long_Loading](https://user-images.githubusercontent.com/81379254/117056280-0e8ced00-ad14-11eb-9962-5a2c3f23c748.jpg)
-![Pycraft_Medium_Loading](https://user-images.githubusercontent.com/81379254/117056282-0f258380-ad14-11eb-9165-d7b824823d4c.jpg)
-![Pycraft_Short_Loading](https://user-images.githubusercontent.com/81379254/117056283-0f258380-ad14-11eb-8efb-82818e7a7a17.jpg)
-![Saving_ERROR](https://user-images.githubusercontent.com/81379254/117056285-0f258380-ad14-11eb-988c-5ccc9c579b48.jpg)
-![selectorICON](https://user-images.githubusercontent.com/81379254/117056287-0fbe1a00-ad14-11eb-8821-68dd9406efb6.jpg)
 # Pycraft
 
 This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself.
