@@ -42,7 +42,7 @@ try:
     icon = pygame.image.load(os.path.join(base_folder,("Resources\\General_Resources\\Icon.jpg")))
     pygame.display.set_icon(icon)
     mousebuttondown = False
-    while theme == False:
+    while theme == "False":
         Display.fill([30,30,30])
         mX, mY = pygame.mouse.get_pos()
         for event in pygame.event.get():
