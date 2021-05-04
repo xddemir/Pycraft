@@ -30,3 +30,6 @@ Pypi @ https://pypi.org/
 Pillow (PIL) @ https://python-pillow.org/
 Pygame @ https://www.pygame.org
 Windows 10 - Visual Studio Code @ https://code.visualstudio.com/
+
+- changes
+In this new sub-release we have patched a few bugs, improved performance and done the following: (-) Fully implimented a new map feature; including zoom, and a locator that is not currently synced up to your actual position in the game, the ability to navigate through the map (-) fixed the skybox to the player, and fixed the issue in which the game would prevent you from moving (WASD) (-) Added the ability to finally save your progress and important information to a (.txt) file. Again feedback would be much appreciated, and this version was released on; 04/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
