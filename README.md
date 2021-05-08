@@ -22,13 +22,14 @@ Thank you greatly for supporting this project simply by running it, I am sorry i
 
 - credits
 
-With thanks to;
-Thomas Jebson
-Python 3 @ https://www.bing.com/search?PC=U523&q=python&pglt=299&FORM=ANNTA1#
-OpenGL @ https://www.opengl.org/
-Pypi @ https://pypi.org/
-Pillow (PIL) @ https://python-pillow.org/
-Pygame @ https://www.pygame.org
-Windows 10 - Visual Studio Code @ https://code.visualstudio.com/
-Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/
-Blender @ https://www.blender.org/
+With thanks to; <br />
+Thomas Jebson <br />
+Python 3 @ https://www.bing.com/search?PC=U523&q=python&pglt=299&FORM=ANNTA1# <br />
+OpenGL @ https://www.opengl.org/ <br />
+Pypi @ https://pypi.org/ <br />
+Pillow (PIL) @ https://python-pillow.org/ <br />
+Pygame @ https://www.pygame.org <br />
+Windows 10 - Visual Studio Code @ https://code.visualstudio.com/ <br />
+Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/ <br />
+Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
+Blender @ https://www.blender.org/ <br />
