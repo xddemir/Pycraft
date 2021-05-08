@@ -30,3 +30,5 @@ Pypi @ https://pypi.org/
 Pillow (PIL) @ https://python-pillow.org/
 Pygame @ https://www.pygame.org
 Windows 10 - Visual Studio Code @ https://code.visualstudio.com/
+Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/
+Blender @ https://www.blender.org/
