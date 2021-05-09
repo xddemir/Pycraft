@@ -33,3 +33,14 @@ Windows 10 - Visual Studio Code @ https://code.visualstudio.com/ <br />
 Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/ <br />
 Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
 Blender @ https://www.blender.org/ <br />
+
+- changes
+
+In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: (-) fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing (-) Fixed errors in the error exception module with font and unitialized modules. Again feedback would be much appreciated, and this version was released on; 18/04/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
+
+- plans for the future
+
+multiprocessing and more minor features updates in Pycraft-21p1003-21a06 <br />
+massive installer overhaul in sub-version Pycraft-21p0103-21a07<br />
+then... <br />
+a final bug fix update before releasing the next Pycraft version <br />
