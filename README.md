@@ -30,6 +30,37 @@ I recommend creating a shortcut for the "PycraftRunUtil.py" file too so its easi
 :white_medium_square: Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
 :white_medium_square: Blender @ https://www.blender.org/ :white_medium_square:
 
+## Dependencies <br />
+
+in case you don't know you can install Pycraft's required modules manually or through the soon to be overhauled installer; named "PycraftInstaller.py" through your Control Panel in Windows (First; press the windows key + r then type "cmd" then run the below syntax) or on Apple systems in Terminal.
+
+```
+pip install <module>
+pip uninstall <module>
+pip update <module>
+```
+Installing, uninstalling or updating the specified module respectively; pip is usually installed by default when installing Python with most versions.
+
+:white_medium_square: Python: Os <br />
+:white_medium_square: Python: Sys <br />
+:white_medium_square: Python: Random <br />
+:white_medium_square: Python: Time <br />
+:white_medium_square: Python: Csv <br />
+:white_medium_square: Python: Timeit <br />
+:white_medium_square: Python: Subprocess <br />
+:white_medium_square: Python: Pip <br />
+:white_medium_square: Python: Array <br />
+:white_medium_square: Pygame >= 2.0.1 <br />
+:white_medium_square: PyOpenGL >= 3.1.5 <br />
+:white_medium_square: Numpy >= 1.20.3 <br />
+:white_medium_square: PyAutoGUI >= 0.9.52 <br />
+:white_medium_square: PyWaveFront >= 1.3.3 <br />
+:white_medium_square: Psutil >= 5.8.0 <br />
+:white_medium_square: PIL (Pillow) >= 8.2.0 <br />
+:white_medium_square: Tkinter <br />
+
+_Disclaimer; unfortunately lots of these pythom modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any reccomendations please cxontact me appropriately._
+
 ## Changes
 
 In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: <br /> :white_medium_square: Fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing <br /> :white_medium_square: Fixed errors in the error exception module with font and unitialized modules. <br /> Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
