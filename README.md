@@ -6,7 +6,7 @@ This is a project in which I aim to test my abilities and learn new skills, and 
 
 Please first before you run the program can you make sure that you have all the files downloaded in the attached folder, then please keep them all inside the Pycraft file and don’t move them about inside the folder, as this makes the program crash and we don’t want that eh!
 
-Also I might just add, this program will be compiled hopefully at the end of the development process in December 2021 or later into a .executable ".exe" file, however for now you will need to have python installed on your system, nothing fancy just the IDLE will do, and id recommend Python 3, I’m developing it on Python 3.7.7 although you should be alright with any Python 3 program.
+Also I might just add, this program will be compiled hopefully at the end of the development process in December 2021 or later into a .executable ".exe" file, however for now you will need to have python installed on your system, nothing fancy just the IDLE will do, and id recommend Python 3, I’m developing it on Python 3.7.7 however Python 3 and any version is recommended.
 
 Then please run the installer; "PycraftInstaller.py" this will make sure that all the modules the program needs to run are installed correctly, before you start complaining yes this is a very badly implemented program but it works for now and I do intend to sort this program out.
 
@@ -63,7 +63,11 @@ _Disclaimer; unfortunately lots of these pythom modules (first and third party) 
 
 ## Changes
 
-In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: <br /> :white_medium_square: Fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing <br /> :white_medium_square: Fixed errors in the error exception module with font and unitialized modules. <br /> Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
+In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: <br /> 
+- Fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing <br /> 
+- Fixed errors in the error exception module with font and unitialized modules. <br /> 
+<br /> 
+Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
 
 ### Plans for the future
 
