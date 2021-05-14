@@ -19,16 +19,16 @@ I recommend creating a shortcut for the "PycraftRunUtil.py" file too so its easi
 ## Credits
 
 #### With thanks to; <br />
-:white_medium_square: Thomas Jebson <br />
-:white_medium_square: Python 3 @ https://www.bing.com/search?PC=U523&q=python&pglt=299&FORM=ANNTA1# <br />
-:white_medium_square: OpenGL @ https://www.opengl.org/ <br />
-:white_medium_square: Pypi @ https://pypi.org/ <br />
-:white_medium_square: Pillow (PIL) @ https://python-pillow.org/ <br />
-:white_medium_square: Pygame @ https://www.pygame.org <br />
-:white_medium_square: Windows 10 - Visual Studio Code @ https://code.visualstudio.com/ <br />
-:white_medium_square: Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/ <br />
-:white_medium_square: Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
-:white_medium_square: Blender @ https://www.blender.org/ :white_medium_square:
+- Thomas Jebson <br />
+- Python 3 @ https://www.bing.com/search?PC=U523&q=python&pglt=299&FORM=ANNTA1# <br />
+- OpenGL @ https://www.opengl.org/ <br />
+- Pypi @ https://pypi.org/ <br />
+- Pillow (PIL) @ https://python-pillow.org/ <br />
+- Pygame @ https://www.pygame.org <br />
+- Windows 10 - Visual Studio Code @ https://code.visualstudio.com/ <br />
+- Freesound: - Erokia's "ambient wave compliation" @ https://freesound.org/s/473545/ <br />
+- Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
+- Blender @ https://www.blender.org/ :white_medium_square:
 
 ## Dependencies <br />
 
@@ -41,23 +41,23 @@ pip update <module>
 ```
 Installing, uninstalling or updating the specified module respectively; pip is usually installed by default when installing Python with most versions.
 
-:white_medium_square: Python: Os <br />
-:white_medium_square: Python: Sys <br />
-:white_medium_square: Python: Random <br />
-:white_medium_square: Python: Time <br />
-:white_medium_square: Python: Csv <br />
-:white_medium_square: Python: Timeit <br />
-:white_medium_square: Python: Subprocess <br />
-:white_medium_square: Python: Pip <br />
-:white_medium_square: Python: Array <br />
-:white_medium_square: Pygame >= 2.0.1 <br />
-:white_medium_square: PyOpenGL >= 3.1.5 <br />
-:white_medium_square: Numpy >= 1.20.3 <br />
-:white_medium_square: PyAutoGUI >= 0.9.52 <br />
-:white_medium_square: PyWaveFront >= 1.3.3 <br />
-:white_medium_square: Psutil >= 5.8.0 <br />
-:white_medium_square: PIL (Pillow) >= 8.2.0 <br />
-:white_medium_square: Tkinter <br />
+- Python: Os <br />
+- Python: Sys <br />
+- Python: Random <br />
+- Python: Time <br />
+- Python: Csv <br />
+- Python: Timeit <br />
+- Python: Subprocess <br />
+- Python: Pip <br />
+- Python: Array <br />
+- Pygame >= 2.0.1 <br />
+- PyOpenGL >= 3.1.5 <br />
+- Numpy >= 1.20.3 <br />
+- PyAutoGUI >= 0.9.52 <br />
+- PyWaveFront >= 1.3.3 <br />
+- Psutil >= 5.8.0 <br />
+- PIL (Pillow) >= 8.2.0 <br />
+- Tkinter <br />
 
 _Disclaimer; unfortunately lots of these pythom modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any reccomendations please cxontact me appropriately._
 
