@@ -69,7 +69,7 @@ In this new sub-release we have patched a lot of bugs; all the ones as far as I 
 - Overall graphical improvements <br /> 
 - General bug fixes. <br /> 
 <br /> 
-Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
+Again feedback would be much appreciated, and this version was released on; 20/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
 
 ### Plans for the future
 
