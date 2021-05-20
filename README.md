@@ -1,6 +1,6 @@
 # ![image](https://user-images.githubusercontent.com/81379254/118308134-8365e100-b4e3-11eb-9613-2bdc4ac4f876.png)
 
-This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.7 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these!
+This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.7 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This project is more about pushing what can be done with game development in python and making the game development more efficient and for providing a template for the future.
 
 ## Setup
 
@@ -64,15 +64,17 @@ _Disclaimer; unfortunately lots of these pythom modules (first and third party) 
 ## Changes
 
 In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: <br /> 
-- Fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing <br /> 
-- Fixed errors in the error exception module with font and unitialized modules. <br /> 
+- Fixed the collision theory sub-module so it now works and is actally relevent to the game, however implementation will change and the performane impact on the game engine it's self reduced. <br /> 
+- Added text to the loading screen when loading the game after pressing play (this is a feature that has been pushed to the back of the line for a while however is finally getting sorted. <br /> 
+- Overall graphical improvements <br /> 
+- General bug fixes. <br /> 
 <br /> 
 Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
 
 ### Plans for the future
 
-Performance improvements; maybe faster load times and settings description in sub-version Pycraft-21p1003-21a06 <br />
-Massive installer overhaul in sub-version Pycraft-21p0103-21a07<br />
+Performance improvements; maybe faster load times and settings description in sub-version Pycraft-21p1003-21a07 <br />
+Massive installer overhaul in sub-version Pycraft-21p0103-21a08<br />
 Then... <br />
 A final bug fix update before releasing the next Pycraft version!!! <br />
 
@@ -80,7 +82,7 @@ A final bug fix update before releasing the next Pycraft version!!! <br />
 New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recomend you use the latest stable release; below is how to identify the stable releases.
 
 ### Version naming
-Our individual versions is labeled individually following the format below: eg: 21p1003-21a This is (Date), (First letter of name of game), (Big release ID), (Month), (-), (Year), (Alpha/Beta) Any Unstable releases will also have in addition to the following format, a release code at the end, starting from 01, these indicate how many new revisioons there have been before the last large update.
+Our individual versions is labeled individually following the format below: eg: 21p1003-21a This is (Date), (First letter of name of game), (Big release ID), (Month), (-), (Year), (Alpha/Beta) Any Unstable releases will also have in addition to the following format, a release code at the end, starting from 01, these indicate how many new revisioons there have been before the last large update. When a new version is 'released' this means it is stable and should be operable to a degree, they follow a basic Semantic versioning scheme the first number is the number of full releases, the second number is the number of smaller releases followed by any bug fix versions marked with a lowercase 'b'.
 
  ## Final Notices
 
