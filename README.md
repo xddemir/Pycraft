@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/81379254/118308134-8365e100-b4e3-11eb-9613-2bdc4ac4f876.png)
+# Pycraft
 
 This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.7 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
 
