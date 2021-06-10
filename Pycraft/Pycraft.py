@@ -1,5 +1,3 @@
-'''Change locat of Quick Text (splash text) to fit in loading box where suitable'''
-
 print("--Running Pycraft")
 try:
     import tkinter as tk
