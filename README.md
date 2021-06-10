@@ -63,18 +63,20 @@ _Disclaimer; unfortunately lots of these pythom modules (first and third party) 
 
 ## Changes
 
-In this new sub-release we have patched a lot of bugs; all the ones as far as I am aware of all have been fixed excluding the installer program that is soon to be discontinued and updated: <br /> 
-- Fixed audio bugs: both contiuing to play when errors occur and in installer and when loading other menues & fixed the bug when the sound will only play once in the menue after 10 minutes of sound playing <br /> 
-- Fixed errors in the error exception module with font and unitialized modules. <br /> 
+In this new sub-release we have patched a few more known bugs, although the more data we recieve with regards to errors and problems and glitches the less buggy an update will be. <br /> 
+- Started work on creating the new installer with the old one pending depreication, no changes however will be released in this update to allow the developers to have more time polishing it, and testing it in as many different situations as they can, but for your information the setup of the installer is complete and also the installation, the rest of the updates are occuring in a "spider" fasion, which will be explained later. <br /> 
+- Implimented splash text on the main load screen <br /> 
+- Considerably faster game load times in the main load menue <br /> 
+- Started work connecting the python project to the internet to install updates to the game and modules and this too will be implimented in the "spider" development structure. <br /> 
 <br /> 
-Again feedback would be much appreciated, and this version was released on; 09/05/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! And the issues we encountered uploading files to the required locations on Github have since been resolved for your convenience.
+Again feedback would be much appreciated, and this version was released on; 10/06/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implimentation, hence why it is not in this pre-release of Pycraft.
 
 ### Plans for the future
 
-Performance improvements; maybe faster load times and settings description in sub-version Pycraft-21p1003-21a06 <br />
-Massive installer overhaul in sub-version Pycraft-21p0103-21a07<br />
-Then... <br />
-A final bug fix update before releasing the next Pycraft version!!! <br />
+Settings labels will be introduced soon <br />
+Massive installer overhaul coming soon <br />
+A final bug fix and error checking update before releasing the next Pycraft version, and we are going to then be making a huge change to the labeling system, we will be moving to a more semantic labeling structure. <br />
+Further down the line more C integration, as well as game engine updates and physics updates are likey to occur, as well as forcing the skybox to the camera and maybe even rasterization.
 
 ### Our update policy
 New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recomend you use the latest stable release; below is how to identify the stable releases.
@@ -82,6 +84,10 @@ New releases will be introduced regularly, it is likely that there will be some 
 ### Version naming
 Our individual versions is labeled individually following the format below: eg: 21p1003-21a This is (Date), (First letter of name of game), (Big release ID), (Month), (-), (Year), (Alpha/Beta) Any Unstable releases will also have in addition to the following format, a release code at the end, starting from 01, these indicate how many new revisioons there have been before the last large update.
 
- ## Final Notices
+## Spider Development
 
-Thank you greatly for supporting this project simply by running it, I am sorry in advance for any spelling mistakes. The programs will be updated frequently and I shall do my best to keep this up to date too. I also want to add that you are welcome to view and change the program and share it with your friends however please may I have some credit, just a name would do and if you find any bugs or errors please feel free to comment in the comments section any feedback so I can improve my program, it will all be much appreciated and give as much detail as you wish to give out. BY INSTALLING THIS PROJECT ONTO YOUR COMPUTER AND RUNNING IT I; Tom Jebbo DO NOT TAKE ANY RESPONCIBILITY FOR ANY DAMAGES THIS MAY CAUSE HOWEVER UNLIKELY, AND YOU AGREE TO HAVE EXERNAL MODULES INSTALLED ONTO YOUR COMPUTER ALSO, OF WHICH I HAVE NO CONTROL OVER, PLEASE USE THIS PROGRAM RESPLONCIBLY AND DO NOT USE IT TO CAUSE HARM. YOU MUST ALSO HAVE PERMISSION FROM THE DEVISES MAGAGER OR ADMINISTRATOR TO INSTALL AND USE COMMAND PROMPT OR TERMINAL. NO DATA THIS PROGRAM COLLECTS IS STORED ANYWHERE BUT, ON YOUR DEVISE, AND AT ANY POINT NO CONNECTION TO A NETWORK IS REQUIRED, AFTER INSTALLATION, TO RUN THIS PROGRAM. THIS PROGRAM DOES NOT SEND ANY DATA TO THE DEVELOPER OR ANYONE ELSE ABOUT THIS PROGRAM. Thank you.
+you might be wondering, what on earth we mean by "spider development", and what will that mean for me, in short this means that as developers we will update the program and run tests on it by changing and working on different features at different times, perhaps when techniques become available or when we feel it is ready for implimentation, this does not mean that updates or development will incur a delay, it simply allows us to work on multiple features independ from the rest of the game so features might be built up over a series of updates.
+
+## Final Notices
+
+Thank you greatly for supporting this project simply by running it, I am sorry in advance for any spelling mistakes. The programs will be updated frequently and I shall do my best to keep this up to date too. I also want to add that you are welcome to view and change the program and share it with your friends however please may I have some credit, just a name would do and if you find any bugs or errors please feel free to comment in the comments section any feedback so I can improve my program, it will all be much appreciated and give as much detail as you wish to give out. BY INSTALLING THIS PROJECT ONTO YOUR COMPUTER AND RUNNING IT I; Tom Jebbo DO NOT TAKE ANY RESPONCIBILITY FOR ANY DAMAGES THIS MAY CAUSE HOWEVER UNLIKELY, AND YOU AGREE TO HAVE EXERNAL MODULES INSTALLED ONTO YOUR COMPUTER ALSO, OF WHICH I HAVE NO CONTROL OVER, PLEASE USE THIS PROGRAM RESPONCIBLY AND DO NOT USE IT TO CAUSE HARM. YOU MUST ALSO HAVE PERMISSION FROM THE DEVISES MAGAGER OR ADMINISTRATOR TO INSTALL AND USE COMMAND PROMPT OR TERMINAL. NO DATA THIS PROGRAM COLLECTS IS STORED ANYWHERE BUT, ON YOUR DEVISE, AND AT ANY POINT NO CONNECTION TO A NETWORK IS REQUIRED HOWEVER RECOMENDED TO KEEP THE MODULES AND GAME UP TO DATE, AFTER INSTALLATION, TO RUN THIS PROGRAM. THIS PROGRAM DOES NOT SEND ANY DATA TO THE DEVELOPER OR ANYONE ELSE ABOUT THIS PROGRAM. Thank you.
