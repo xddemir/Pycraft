@@ -59,34 +59,34 @@ Installing, uninstalling or updating the specified module respectively; pip is u
 - PIL (Pillow) >= 8.2.0 <br />
 - Tkinter <br />
 
-_Disclaimer; unfortunately lots of these pythom modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any reccomendations please cxontact me appropriately._
+_Disclaimer; unfortunately lots of these python modules (first and third party) can require some external modules that will be installed during the installing process of the above modules, unfortunately this makes it really difficult to give credit to those modules, if you have any recommendations please contact me appropriately._
 
 ## Changes
 
-In this new sub-release we have patched a few more known bugs, although the more data we recieve with regards to errors and problems and glitches the less buggy an update will be. <br /> 
-- Started work on creating the new installer with the old one pending depreication, no changes however will be released in this update to allow the developers to have more time polishing it, and testing it in as many different situations as they can, but for your information the setup of the installer is complete and also the installation, the rest of the updates are occuring in a "spider" fasion, which will be explained later. <br /> 
-- Implimented splash text on the main load screen <br /> 
-- Considerably faster game load times in the main load menue <br /> 
-- Started work connecting the python project to the internet to install updates to the game and modules and this too will be implimented in the "spider" development structure. <br /> 
+In this new sub-release we have patched a few more known bugs, although the more data we receive with regards to errors and problems and glitches the less buggy an update will be. <br /> 
+- Started work on creating the new installer with the old one pending depreciation, no changes however will be released in this update to allow the developers to have more time polishing it, and testing it in as many different situations as they can, but for your information the setup of the installer is complete and also the installation, the rest of the updates are occurring in a "spider" fashion, which will be explained later. <br /> 
+- Implemented splash text on the main load screen <br /> 
+- Considerably faster game load times in the main load menu <br /> 
+- Started work connecting the python project to the internet to install updates to the game and modules and this too will be implemented in the "spider" development structure. <br /> 
 <br /> 
-Again feedback would be much appreciated, and this version was released on; 10/06/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implimentation, hence why it is not in this pre-release of Pycraft.
+Again feedback would be much appreciated, and this version was released on; 10/06/2021 (UK date) DD/MM/YYYY. As always we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implementation, hence why it is not in this pre-release of Pycraft.
 
 ### Plans for the future
 
 Settings labels will be introduced soon <br />
 Massive installer overhaul coming soon <br />
-A final bug fix and error checking update before releasing the next Pycraft version, and we are going to then be making a huge change to the labeling system, we will be moving to a more semantic labeling structure. <br />
-Further down the line more C integration, as well as game engine updates and physics updates are likey to occur, as well as forcing the skybox to the camera and maybe even rasterization.
+A final bug fix and error checking update before releasing the next Pycraft version, and we are going to then be making a huge change to the labelling system, we will be moving to a more semantic labelling structure. <br />
+Further down the line more C integration, as well as game engine updates and physics updates are likely to occur, as well as forcing the skybox to the camera and maybe even rasterization.
 
 ### Our update policy
-New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recomend you use the latest stable release; below is how to identify the stable releases.
+New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recommend you use the latest stable release; below is how to identify the stable releases.
 
 ### Version naming
-Our individual versions is labeled individually following the format below: eg: 21p1003-21a This is (Date), (First letter of name of game), (Big release ID), (Month), (-), (Year), (Alpha/Beta) Any Unstable releases will also have in addition to the following format, a release code at the end, starting from 01, these indicate how many new revisioons there have been before the last large update.
+Our individual versions is labelled individually following the format below: eg: 21p1003-21a This is (Date), (First letter of name of game), (Big release ID), (Month), (-), (Year), (Alpha/Beta) Any Unstable releases will also have in addition to the following format, a release code at the end, starting from 01, these indicate how many new revisions there have been before the last large update.
 
 ## Spider Development
 
-you might be wondering, what on earth we mean by "spider development", and what will that mean for me, in short this means that as developers we will update the program and run tests on it by changing and working on different features at different times, perhaps when techniques become available or when we feel it is ready for implimentation, this does not mean that updates or development will incur a delay, it simply allows us to work on multiple features independ from the rest of the game so features might be built up over a series of updates.
+you might be wondering, what on earth we mean by "spider development", and what will that mean for me, in short this means that as developers we will update the program and run tests on it by changing and working on different features at different times, perhaps when techniques become available or when we feel it is ready for implementation, this does not mean that updates or development will incur a delay, it simply allows us to work on multiple features independently from the rest of the game so features might be built up over a series of updates.
 
 ## Final Notices
 
