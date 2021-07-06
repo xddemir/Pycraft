@@ -20,7 +20,7 @@ I recommend creating a shortcut for the "PycraftRunUtil.py" file too so its easi
 
 #### With thanks to; <br />
 - Thomas Jebson <br />
-- Python 3 @ https://www.bing.com/search?PC=U523&q=python&pglt=299&FORM=ANNTA1# <br />
+- Python 3 @ https://www.python.org <br />
 - OpenGL @ https://www.opengl.org/ <br />
 - Pypi @ https://pypi.org/ <br />
 - Pillow (PIL) @ https://python-pillow.org/ <br />
