@@ -96,7 +96,7 @@ Thank you greatly for supporting this project simply by running it, I am sorry i
 
 ## Statistics Area
 
-Below are a few examples of the following claims in each release. Each test is run 100 times for each test and all nessasary variables have been controlled before testing:
+Below are a few examples of the following claims in each release. Each test is run 100 times for each test and all necessary variables have been controlled before testing:
 
 ### Shortened Start-up times
 ![Screenshot 2021-07-07 184523](https://user-images.githubusercontent.com/81379254/124805502-84e7de80-df53-11eb-8aa8-04ac6f87a3a9.jpg)
