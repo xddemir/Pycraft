@@ -1,0 +1,1 @@
+save = {'theme': 'dark', 'version': '0.8', 'FPS': 60, 'eFPS': 61.349693298339844, 'aFPS': 57.43500832005551, 'FOV': 70, 'cameraANGspeed': 4, 'aa': True, 'RenderFOG': True, 'FanSky': True, 'FanPart': True, 'sound': True, 'soundVOL': 75, 'music': True, 'musicVOL': 50, 'X': 0, 'Y': 0, 'Z': 0, 'lastRun': '11/7/2021'}
