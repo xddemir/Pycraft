@@ -1,6 +1,6 @@
 # ![Picture1](https://user-images.githubusercontent.com/81379254/119387324-b157dc00-bcc0-11eb-99b2-7f7bf2886543.png)
 
-This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.7 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
+This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
 
 ## Setup
 
@@ -70,14 +70,13 @@ In this new sub-release, we have patched a few more known bugs, although the mor
 - Discontinued the 'render distance' setting in the settings menu, simply because the max draw distance has to be defined by the game for some scenes and also to pave the way for future features <br />
 - (.exe) releases of the project will now exist as a separate release of the project under the release’s menu with a '.1' identifier after the main update version; for example; 'v0.7.1' for reasons mentioned in that release and also attached in this file! <br />
 - General needed attention was given to the spelling and grammar of each of the separate releases of the game and suitable updates will also occur in the individual branches over the following days. <br />
-- One final change that’s happened now is the conversion of the version naming system from the older '21p1003-21a' format to the new 'v0.8' format, this is added to the documentation below!
+- One final change that’s happened now is the conversion of the version naming system from the older '21p1003-21a' format to the new 'v0.8' format, this is added to the documentation below! <br />
+- Fixed a visual bug when entering the credits GUI and upon leaving the selector icon wont be the accurate theme anymore, this is now corrected
 <br />
-Again, feedback would be much appreciated, and this version hasn’t yet been released but adding changed to the readme file close to an update might become a thing from now on so I can keep track on the projects overall progress, however this update is scheduled to be released on this date; 11/07/2021 (UK date) DD/MM/YYYY however this ISNT set in stone. As always, we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implementation, hence why it is not in this pre-release of Pycraft.
+Again, feedback would be much appreciated this update was released on; 11/07/2021 (UK date) DD/MM/YYYY. As always, we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implementation, hence why it is not in this pre-release of Pycraft.
 
 ### Plans for the future
 
-Settings labels will be introduced soon <br />
-Massive installer overhaul coming soon <br />
 A final bug fix and error checking update before releasing the next Pycraft version, and we are going to then be making a huge change to the labelling system, we will be moving to a more semantic labelling structure. <br />
 Further down the line more C integration, as well as game engine updates and physics updates are likely to occur, as well as forcing the skybox to the camera and maybe even rasterization.
 
