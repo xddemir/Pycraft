@@ -1273,7 +1273,7 @@ try:
             iteration += 1
             if pygame.mixer.music.get_busy() == False:
                 if music == True:
-                    PlayInvSound(musicVOL)
+                        PlayInvSound(musicVOL)
             for event in pygame.event.get(): # detects events, (keypresses, display interactions, mousebutton presses, ect.)
                 if event.type == pygame.QUIT or VisualYdisplacement <= -556: # if the "x" in the corner is pressed then;
                     if sound == True:
@@ -1593,7 +1593,11 @@ try:
                     text = LoadQuickText()
                     TextFontRendered = LoadingTextFont.render(f"{text}", aa, FontCol)
                     Display.blit(TextFontRendered, (588,160))
-                    main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D) # loads the command that happens when clicked
+                    try:
+                        main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices) # loads the command that happens when clicked
+                    except:
+                        map_vertices = 0
+                        main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices) # loads the command that happens when clicked
             else: # if you are not hovering over the font
                 hover1 = False # hover os set to false
             
@@ -1640,8 +1644,11 @@ try:
                 if mousebuttondown == True:
                     Display.blit(LoadingImage, (0,0))
                     pygame.display.flip()
+                    if pygame.mixer.music.get_busy() == True:
+                        pygame.mixer.music.pause()
                     if sound == True:
                         PlayClickSound(soundVOL)
+                    pygame.mixer.music.play()
                     mousebuttondown = False
                     Credits(FontCol, BackgroundCol, ShapeCol, numOFerrors, devmode, aa, FPS, theme, AccentCol)
             else:
@@ -1922,7 +1929,7 @@ try:
         glBindTexture(GL_TEXTURE_2D, 0)
 
 
-    def Inventory(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D):
+    def Inventory(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices):
         base_folder = os.path.dirname(__file__)
         Display = pygame.display.set_mode((width, height), pygame.SRCALPHA)
         LoadingImage = pygame.image.load(os.path.join(base_folder,("Resources\\General_Resources\\Pycraft_Short_Loading.jpg"))) # loads the loading screen
@@ -1973,7 +1980,7 @@ try:
                     Load3D = False
                     if sound == True:
                         PlayClickSound(soundVOL)
-                    main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D)
+                    main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices)
                 if event.type == pygame.MOUSEBUTTONDOWN: # if the mouse button down
                     mousebuttondown = True # mouse button down is set to True (yes)
                 if event.type == pygame.MOUSEBUTTONUP: # if the mouse button is up
@@ -2109,7 +2116,7 @@ try:
         return (x,z)
 
 
-    def MapLoader(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D):
+    def MapGUI(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices):
         base_folder = os.path.dirname(__file__)
         Display = pygame.display.set_mode((1280,720))
         LoadingImage = pygame.image.load(os.path.join(base_folder,("Resources\\General_Resources\\Pycraft_Short_Loading.jpg"))) # loads the loading screen
@@ -2133,7 +2140,7 @@ try:
                     Load3D = False
                     if sound == True:
                         PlayClickSound(soundVOL)
-                    main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D)
+                    main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices)
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
                         zoom = 0
@@ -2226,7 +2233,7 @@ try:
         return min_v, max_v, Map_box, counterFORvertex
 
 
-    def main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D):
+    def main(FontCol, BackgroundCol, ShapeCol, rendis, FPS, FOV, cameraANGspeed, devmode, aa, RenderFOG, Display, LoadingGameImage, G3Dscale, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices):
         import time
         base_folder = os.path.dirname(__file__)
         LoadingPercent = 0
@@ -2473,9 +2480,9 @@ try:
                     if event.key == pygame.K_e:
                         myScreenshot = pyautogui.screenshot(region=(((size.width/2)-640),((size.height/2)-360), 1280, 720))
                         myScreenshot.save(os.path.join(base_folder,("Resources\\General_Resources\\PauseIMG.jpg")))
-                        Inventory(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D)
+                        Inventory(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices)
                     if event.key == pygame.K_r:
-                        MapLoader(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D)
+                        MapGUI(FontCol, BackgroundCol, ShapeCol, width, height, aa, version, FPS, Map, Map_box, min_v, max_v, Map_scale, Map_trans, Map_size, max_Map_size, Load3D, map_vertices)
                     if event.key == pygame.K_w:
                         WKeyPressed = True
                     if event.key == pygame.K_s:
