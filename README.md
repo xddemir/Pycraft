@@ -2,6 +2,12 @@
 
 This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
 
+## Preview video
+
+For the uncompressed file format see the youtube preview here: (https://www.youtube.com/watch?v=KwgA3PLc_lA)
+
+https://user-images.githubusercontent.com/81379254/126047144-aaf08fe2-02ee-4a89-a5db-bd17c6940ae4.mp4
+
 ## Setup
 
 Please first before you run the program can you make sure that you have all the files downloaded in the attached folder, then please keep them all inside the Pycraft file and don’t move them about inside the folder, as this makes the program crash and we don’t want that eh!
