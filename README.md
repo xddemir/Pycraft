@@ -2,6 +2,8 @@
 
 This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PycraftDeveloper&repo=Pycraft&show_icons=true&theme=darcula)](https://github.com/PycraftDeveloper/Pycraft)
+
 ## Preview video
 
 For the uncompressed file format see the youtube preview here: (https://www.youtube.com/watch?v=KwgA3PLc_lA)
@@ -106,3 +108,7 @@ Below are a few examples of the following claims in each release. Each test is r
 
 ### Shortened Start-up times
 ![Screenshot 2021-07-07 184523](https://user-images.githubusercontent.com/81379254/124805502-84e7de80-df53-11eb-8aa8-04ac6f87a3a9.jpg)
+
+### Profile stats
+
+![PycraftDeveloper's GitHub stats](https://github-readme-stats.vercel.app/api?username=PycraftDeveloper&show_icons=true&theme=darcula)
