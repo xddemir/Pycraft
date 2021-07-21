@@ -36,6 +36,7 @@ I recommend creating a shortcut for the "PycraftRunUtil.py" file too so it’s e
 - Windows 10 - Visual Studio Code @ https://code.visualstudio.com/ <br />
 - Freesound: - Erokia's "ambient wave compilation" @ https://freesound.org/s/473545/ <br />
 - Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
+- Freesound: - monte32's "Footsteps_6_Dirt_shoe" @ https://freesound.org/people/monte32/sounds/353799/ <br />
 - Blender @ https://www.blender.org/ :white_medium_square:
 
 ## Dependencies <br />
