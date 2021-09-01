@@ -24,6 +24,12 @@ pip install <module>
 pip uninstall <module>
 pip update <module>
 ```
+
+Here is a short video toutorial explaing all this (Its really not too bad), this is the link to the youtube video and also a compressed version below for you:
+(https://youtu.be/DG5YbE-umw0)
+
+https://user-images.githubusercontent.com/81379254/131724609-c70a40ae-ef3b-4aa3-9871-22f51339cf32.mp4
+
 ## Running the program
 
 Now you have the program properly installed hopefully (you’ll find out if you haven’t promptly!) you need to locate the file "PycraftRunUtil.py" basically all this program does is run the right modules, initiates the main program; "Pycraft.py" and catches any errors that might arise in the program in a nicely rendered error screen, if it crashes on your first run then chances are you haven’t installed the program correctly, if it still doesn’t work then you can drop me an email @ "ThomasJebbo@gmail.com" or comment here on the repository, I do hope however that it works alright for you and you have a pleasant experience. I might also add this program has been developed on a Windows 64-bit computer however should run fine on a 32-bit Windows machine or through MacOS although they remain untested for now. 
