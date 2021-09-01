@@ -1,8 +1,8 @@
 # ![Picture1](https://user-images.githubusercontent.com/81379254/119387324-b157dc00-bcc0-11eb-99b2-7f7bf2886543.png)
 
-This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us.
+This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us. <br />
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PycraftDeveloper&repo=Pycraft&show_icons=true&theme=darcula)](https://github.com/PycraftDeveloper/Pycraft)
+(Progress towards Pycraft v0.9: ~76% complete) <br />
 
 ## Preview video
 
@@ -37,7 +37,7 @@ I recommend creating a shortcut for the "PycraftRunUtil.py" file too so it’s e
 - Freesound: - Erokia's "ambient wave compilation" @ https://freesound.org/s/473545/ <br />
 - Freesound: - Soundholder's "ambient meadow near forest" @ https://freesound.org/s/425368/ <br />
 - Freesound: - monte32's "Footsteps_6_Dirt_shoe" @ https://freesound.org/people/monte32/sounds/353799/ <br />
-- Blender @ https://www.blender.org/ :white_medium_square:
+- Blender @ https://www.blender.org/ <br />
 
 ## Dependencies <br />
 
