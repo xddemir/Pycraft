@@ -12,12 +12,18 @@ https://user-images.githubusercontent.com/81379254/126047144-aaf08fe2-02ee-4a89-
 
 ## Setup
 
-Please first before you run the program can you make sure that you have all the files downloaded in the attached folder, then please keep them all inside the Pycraft file and don’t move them about inside the folder, as this makes the program crash and we don’t want that eh!
+When setting up and installing this project you can either run the bare bones file which is likely found above this 'README.md' file if your viewing this on the GitHub website then please follow the steps below for more information on the setup and installation of this project however where possible it is recomended that you use the executable file (.exe) under the most recent releases page as this will run regardless of where you place the file or if you have python or even if you have any of the installed modules this project depends on because its compiled into one file (hence the larger file size). which makes removing the file much easier and also sharing and transporting the file mnore easy and convenient. However if you are planning to use the project in its uncompiled format (which as mentioned will be at the top of this page if you are on the GitHub website) then it is recomended you follow the below steps to make sure the project works properly.
 
-Also, I might just add, this program will be compiled hopefully at the end of the development process in December 2021 or later into an executable ".exe" file, however for now you will need to have python installed on your system, nothing fancy just the IDLE will do, and I’d recommend Python 3, I’m developing it on Python 3.7.7 however Python 3 and any version is recommended.
+The project will download either as a raw folder of as a (.zip) compressed file (likely because its being downloaded from the releases page, if the file is compressed then please make sure you have the project decompressed before use. Next make sure that any folders and files ouitside of the 'Pycraft' folder are removed and that the 'Pycraft' file is in the intended place for the file to be run from. This file can be freely moved around, transported between drives, computers and folders in this form. A video guide to this will be uploaded here and in YouTube in the coming months.
 
-Then please run the installer; "PycraftInstaller.py" this will make sure that all the modules the program needs to run are installed correctly, before you start complaining yes this is a very badly implemented program but it works for now and I do intend to sort this program out.
-
+When running the program please make sure you have a minimum of 1GB of free space on the drive and also have Python 3 installed on your device. This can be found here: (www.python.org/downloads). The sub version of Python isn't too important in this circumstance however the project has been tested in Python 3.9.5 and is known to work. In addition to all this please make sure you have the following modules installed on your device:
+Pygame, Numpy, PyopenGL, Pillow, PyAutoGUI, psutil, PyWaveFront, cpuinfo and Ctypes. 
+For those not familiar they can be found here: (pypi.org) and you can use the following syntax to install, update and remove these modules:
+```
+pip install <module>
+pip uninstall <module>
+pip update <module>
+```
 ## Running the program
 
 Now you have the program properly installed hopefully (you’ll find out if you haven’t promptly!) you need to locate the file "PycraftRunUtil.py" basically all this program does is run the right modules, initiates the main program; "Pycraft.py" and catches any errors that might arise in the program in a nicely rendered error screen, if it crashes on your first run then chances are you haven’t installed the program correctly, if it still doesn’t work then you can drop me an email @ "ThomasJebbo@gmail.com" or comment here on the repository, I do hope however that it works alright for you and you have a pleasant experience. I might also add this program has been developed on a Windows 64-bit computer however should run fine on a 32-bit Windows machine or through MacOS although they remain untested for now. 
@@ -84,20 +90,15 @@ In this new sub-release, we have patched a few more known bugs, although the mor
 <br />
 Again, feedback would be much appreciated this update was released on; 11/07/2021 (UK date) DD/MM/YYYY. As always, we hope you enjoy this new release and feel free to leave feedback. Thank you! we also apologize for the slow updates over the past few days, development has been slow due to issues with the new installer and its implementation, hence why it is not in this pre-release of Pycraft.
 
-### Plans for the future
-
-A final bug fix and error checking update before releasing the next Pycraft version, and we are going to then be making a huge change to the labelling system, we will be moving to a more semantic labelling structure. <br />
-Further down the line more C integration, as well as game engine updates and physics updates are likely to occur, as well as forcing the skybox to the camera and maybe even rasterization.
-
 ## Our update policy
 New releases will be introduced regularly, it is likely that there will be some form of error or bug, therefore unless you intend to use this project for development and feedback purposes (Thank you all!) we recommend you use the latest stable release; below is how to identify the stable releases.
 
 ## Version naming
 Versions have changed pretty dramatically the past few days, don’t panic I'm here to help! In sort the new version naming system more closely follows the Semantic Naming system; in short the first number in this example 'v0.8.1' stands for release number, this project has not yet been released officially so is still in development, which is why the second number increases, because that indicates each pre-release, and finally that last number which won’t appear in most releases will indicate a special release over the 'normal' file style release, which actually won’t be the typical standard actually in the far future, but that’s a (long) way off for now!
 
-## (.exe) releases or 'point 1' releases
+## (.exe) releases.
 
-Right time to tackle some of the confusion behind the (.exe) releases that will now be a feature of all releases. As stated above the '.1' on the end of an update release number will signify that there will be an attached (.exe) version of the same release. Now when installing and running the (.exe) release its actually much, much easier to do, you just have to download the file attached and simply double click on the file to run it, typically the file will be downloaded to the downloads folder on your computer. The project might take a second or two to appear to start to do something (as everything it requires is loaded) then from there it will work without having any modules installed, any connection (like ALL other releases) or any extra downloads required, its all-in-one for much easier use, and this isn’t an app that installs anything onto your computer outside of the file so to remove you simply have to delete the 'Pycraft.exe' file. Simple!
+Right time to tackle some of the confusion behind the (.exe) releases that will now be a feature of all releases. The '.1' on the end of an update release number will signify that there will be an attached (.exe) version of the same release. Now when installing and running the (.exe) release its actually much, much easier to do, you just have to download the file attached and simply double click on the file to run it, typically the file will be downloaded to the downloads folder on your computer. The project might take a second or two to appear to start to do something (as everything it requires is loaded) then from there it will work without having any modules installed, any connection (like ALL other releases) or any extra downloads required, its all-in-one for much easier use, and this isn’t an app that installs anything onto your computer outside of the file so to remove you simply have to delete the 'Pycraft.exe' file. Simple!
 
 ## Final Notices
 
