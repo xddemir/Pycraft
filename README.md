@@ -2,7 +2,7 @@
 
 This is a project in which I aim to test my abilities and learn new skills, and show what I can do to the community thank you all very much for coming here and I hope you enjoy and are inspired to fire up IDLE yourself. Made with Python 3.9 64 bit and Windows Visual Studio Code for ease of use and id strongly recommend these! This update is going to take a few days to be released fully, please bear with us. <br />
 
-(Progress towards Pycraft v0.9: ~78% complete) <br />
+(Progress towards Pycraft v0.9: ~79.5% complete) <br />
 
 ## Preview video
 
